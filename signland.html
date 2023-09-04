@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>travelsignups</title>
+    <style>
+        .msk {
+            font-size: 15px;
+        }
+
+        body {
+
+            background-image: url('https://wallpaper.dog/large/10884023.jpg');
+            background-size: 1170px 590px;
+        }
+
+        .msk:hover {
+            color: red;
+        }
+
+        .signups {
+            display: inline-block;
+            position: relative;
+            left: 35%;
+        }
+
+        .pro1 {
+            color: rgb(59, 17, 56);
+            font-size: 35px;
+            text-align: center;
+        }
+
+        .form-group input {
+            color: aqua;
+            background-color: black;
+            margin: 7px auto;
+            text-align: center;
+            width: 300px;
+            padding: 2px;
+            border: 2px solid black;
+            font-size: 15px;
+            border-radius: 8px;
+            font-family: 'Lumanosimo', cursive;
+        }
+
+        .form-group:hover {
+            color: yellow;
+        }
+
+        .btx {
+            background-color: #0a0a0a;
+            border-radius: 5px;
+            color: #fdf9f9;
+            padding-left: 3px;
+            padding-right: 4px;
+            margin-left: 15%;
+            text-align: center;
+            margin-top: 4px;
+        }
+
+        .btx:hover {
+            background-color: wheat;
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cont">
+        <section class="signup" id="signup">
+            <h1 class="pro1">...SignUp...</h1><br><br><br><br>
+            <div class="signups" data-aos="fade-up" data-aos-duration="3000">
+                <form action="#">
+                    <div class="msk">Please enter your contact Details below</div>
+                    <div class="form-group">
+                        <input type="text" name="" placeholder="Enter your Full name ">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="" placeholder="Enter your Email ">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="" placeholder="Enter your Contact Number ">
+                    </div>
+
+                </form>
+                <a href="otpp.html"><button class="btn btx" onclick="showWarning()">SUBMIT</button></a>
+            </div>
+        </section>
+    </div>
+    <script>
+        function showWarning() {
+            var confirmation = confirm("An OTP will sent to your mobile number.");
+        }
+    </script>
+</body>
+
+</html>

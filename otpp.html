@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentotp</title>
+    <style>
+        body {
+            background-image: url('https://www.hdwallpapers.in/download/mountains_in_dark_night_background_hd_dark-HD.jpg');
+            background-size: 1170px 590px;
+        }
+
+        .otp {
+
+            text-align: center;
+            position: absolute;
+            top: 15%;
+            left: 30%;
+        }
+
+        .sub {
+            color: rgb(211, 245, 74);
+            position: absolute;
+            top: 22%;
+            left: 59%;
+            border-radius: 20%;
+            background: none;
+            border: 2px solid rgb(24, 86, 86);
+            padding-right: 15px;
+            padding-left: 15px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+
+        .sub:hover {
+            display: inline-block;
+            padding: 0.7rem 1.3rem;
+            background-color: rgb(127, 212, 255);
+            border-radius: 50%;
+            box-shadow: 0 0 .8rem skyblue;
+            font-size: 1rem;
+            color: red;
+            letter-spacing: .1rem;
+            font-weight: 600;
+            transition: .5s ease;
+            border: none;
+        }
+
+        .lbl {
+            padding: 3px 3px;
+            font-size: 20px;
+            font-family: monospace;
+            color: rgb(139, 221, 253);
+        }
+
+        .inpt {
+            background-color: aliceblue;
+            margin: 2px 2px;
+        }
+
+        .dnotp {
+            position: absolute;
+            top: 30%;
+            left: 58%;
+            background: none;
+            border: 2px solid rgb(24, 86, 86);
+            padding-right: 15px;
+            padding-left: 15px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            color: aliceblue;
+        }
+
+        .dnotp:hover {
+            display: inline-block;
+            padding: 0.7rem .6rem;
+            background-color: rgb(127, 212, 255);
+            border-radius: 10%;
+            box-shadow: 0 0 .8rem skyblue;
+            font-size: 1rem;
+            color: red;
+            letter-spacing: .1rem;
+            font-weight: 400;
+            transition: .5s ease;
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="otp">
+        <label class="lbl" for="num"> Enter your 4 digit OPT : </label>
+        <input class="inpt" type="" name="num" id="num">
+    </div>
+    <div class="submit">
+        <a href="indexLand.html"><button class="sub" onclick="sh()">Submit</button></a>
+    </div>
+
+    <button class="dnotp">Resend_otp</button>
+
+    <script>
+        function sh() {
+            var confirmation = confirm("ThankYou for Login. Back to Home page .");
+        }
+    </script>
+</body>
+
+</html>

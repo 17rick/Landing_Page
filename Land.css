@@ -1,0 +1,532 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+
+}
+
+:root {
+    --bg-color: #1f242d;
+    --second-bg-color: #323946;
+    --text-color: #fff;
+    --main-color: #2ef;
+}
+
+html {
+    font-size: 46%;
+    overflow-x: hidden;
+}
+
+body {
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem 9%;
+    background: var(--bg-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+section {
+    min-height: 80vh;
+    padding: 10rem 13% 2rem;
+}
+
+.logo {
+    font-size: 1.5rem;
+    color: rgb(245, 180, 180);
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.navbar a {
+    font-size: 12px;
+    text-decoration: none;
+    color: var(--text-color);
+    margin-left: 2rem;
+    transition: .3s;
+}
+
+.navbar a:hover {
+    color: var(--main-color);
+    box-shadow: 0 0 1rem var(--main-color);
+    display: inline-block;
+    padding: 0.4rem 1.3rem;
+    background-color: var(--main-color);
+    border-radius: 3.8rem;
+    box-shadow: 0 0 .8rem var(--main-color);
+    font-size: 1.3rem;
+    color: #1f242d;
+    letter-spacing: .1rem;
+    font-weight: 600;
+    transition: .5s ease;
+}
+
+.home {
+
+    display: flex;
+    background-image: url('https://www.pixel4k.com/wp-content/uploads/2021/10/girl-walking-towards-moon-in-ocean-4k_1634170484.jpg');
+    background-size: 100% 100%;
+}
+
+span {
+    color: var(--main-color);
+}
+
+.home-content h1 {
+    font-size: 5.3rem;
+    line-height: 1;
+}
+
+.boxim {
+    display: inline-block;
+    border-radius: 14px;
+    width: 550px;
+    height: 350px;
+    margin: 12px;
+    margin-top: 5%;
+    background-image: url('https://wallpaperaccess.com/full/2602079.jpg');
+    background-size: 550px 360px;
+}
+
+.boxim:hover {
+    display: inline-block;
+    padding: 0.7rem 2.3rem;
+    background-color: var(--main-color);
+    border-radius: 20px;
+    box-shadow: 0 0 4.8rem var(--main-color);
+    font-size: 2rem;
+    color: red;
+    letter-spacing: .1rem;
+    font-weight: 600;
+    transition: .5s ease;
+}
+
+#boxim1 {
+    position: relative;
+    left: 60%;
+}
+
+span1 {
+    color: red;
+    font-size: 40px;
+}
+
+.off {
+    text-align: center;
+    font-size: 30px;
+}
+
+.btn {
+    display: inline-block;
+    border-radius: 3.8rem;
+    box-shadow: none;
+    color: var(--text-color);
+}
+
+#vbtn {
+    display: inline-block;
+    position: relative;
+    left: 100%;
+}
+
+.btw {
+    background: rgb(48, 110, 125);
+    color: black;
+    padding-right: 15px;
+    padding-left: 15px;
+    /* padding-top: 5px; */
+    border: 1px solid var(--main-color);
+}
+
+.btn:hover {
+    display: inline-block;
+    padding: 0.7rem 2.3rem;
+    background-color: var(--main-color);
+    border-radius: 3.8rem;
+    box-shadow: 0 0 .8rem var(--main-color);
+    font-size: 1rem;
+    color: var(--bg-color);
+    letter-spacing: .1rem;
+    font-weight: 600;
+    transition: .5s ease;
+}
+
+.btnNav {
+    background-color: #1f242d;
+    font-size: 12px;
+    text-decoration: none;
+    color: var(--text-color);
+    margin-left: 1rem;
+    transition: .3s;
+}
+
+.btnNav:hover {
+    box-shadow: 0 0 1rem var(--main-color);
+    display: inline-block;
+    padding: 0.4rem 1.3rem;
+    background-color: var(--main-color);
+    border-radius: 3.8rem;
+    box-shadow: 0 0 .8rem var(--main-color);
+    font-size: 1.3rem;
+    color: #1f242d;
+    letter-spacing: .1rem;
+    font-weight: 600;
+    transition: .5s ease;
+}
+
+.quots {
+    color: aquamarine;
+    width: 600px;
+    height: 400px;
+    position: relative;
+    right: 10%;
+    top: -45%;
+    font-size: 22px;
+    padding-left: 20px;
+    font-family: monospace;
+}
+
+.xx {
+    background: none;
+    display: inline-block;
+    border-radius: 3.8rem;
+    border: 1px solid rgb(18, 18, 92);
+    box-shadow: none;
+    color: var(--text-color);
+    font-size: 10px;
+    position: relative;
+    left: 30%;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: rgb(89, 137, 221);
+}
+
+.xx:hover {
+    box-shadow: 0 0 1rem var(--main-color);
+    display: inline-block;
+    padding: 0.4rem 1.3rem;
+    background-color: var(--main-color);
+    border-radius: 3.8rem;
+    box-shadow: 0 0 .8rem var(--main-color);
+    font-size: 1.3rem;
+    color: #111002;
+    letter-spacing: .1rem;
+    font-weight: 600;
+    transition: .5s ease;
+}
+
+.hrup {
+    color: rgb(16, 1, 1);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.toplan {
+    color: var(--text-color);
+    text-align: center;
+    width: 70%;
+    height: 18%;
+    position: relative;
+    top: 55px;
+    left: -10px;
+    font-size: 40px;
+}
+
+.cat {
+    width: 1120px;
+    height: 280px;
+    position: absolute;
+    top: 100%;
+    left: 1%;
+}
+
+.place1 {
+    position: relative;
+    width: 270px;
+    height: 270px;
+    margin: 2px 2px 2px 2px;
+    background-image: url('https://wallpaperaccess.com/full/169950.jpg');
+    background-size: 280px 270px;
+    border-radius: 45%;
+    text-align: center;
+    color: rgb(70, 17, 17);
+    font-size: 30px;
+}
+
+.place1:hover {
+    display: inline-block;
+    padding: 0.5rem .3rem;
+    background-color: var(--main-color);
+    border-radius: 60%;
+    box-shadow: 0 0 4.8rem var(--main-color);
+    font-size: 1rem;
+    color: rgb(247, 120, 194);
+    letter-spacing: .1rem;
+    font-weight: 600;
+    transition: .5s ease;
+    background-image: url('https://t4.ftcdn.net/jpg/05/97/16/07/360_F_597160742_I1ZvDpPkaPDlmaj5CgQiQJDprufFqv2j.jpg');
+    background-size: 300px 279px;
+}
+
+.place2 {
+    position: relative;
+    left: 280px;
+    top: -272px;
+    width: 270px;
+    height: 270px;
+    margin: 2px 2px 2px 2px;
+    text-align: center;
+    background-image: url('https://www.fabhotels.com/blog/wp-content/uploads/2019/09/Munnar-Kerala-1.jpg');
+    background-size: 280px 271px;
+    border-radius: 45%;
+    font-size: 25px;
+    color: rgb(31, 8, 8);
+}
+
+.place2:hover {
+    display: inline-block;
+    padding: 0.5rem 0.3rem;
+    background-color: var(--main-color);
+    border-radius: 60%;
+    box-shadow: 0 0 4.8rem var(--main-color);
+    font-size: 1rem;
+    color: rgb(255, 232, 232);
+    letter-spacing: .1rem;
+    font-weight: 600;
+    transition: .5s ease;
+    background-image: url('https://wallpapers.com/images/hd/beautiful-forest-1024-x-640-wallpaper-7m22sesbqjkpc6d7.jpg');
+    background-size: 300px 277px;
+}
+
+.place3 {
+    position: relative;
+    left: 562px;
+    top: -546px;
+    width: 270px;
+    height: 270px;
+    margin: 2px 2px 2px 2px;
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20230328/pngtree-dusk-sunset-camel-desert-background-image_2118225.jpg');
+    background-size: 300px 271px;
+    border-radius: 45%;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(17, 47, 53);
+}
+
+.place3:hover {
+    display: inline-block;
+    padding: 0.5rem .3rem;
+    background-color: var(--main-color);
+    border-radius: 60%;
+    box-shadow: 0 0 4.8rem var(--main-color);
+    font-size: 1rem;
+    color: rgb(255, 234, 0);
+    letter-spacing: .1rem;
+    font-weight: 600;
+    transition: .5s ease;
+    background-image: url('https://wallpaper.dog/large/10817234.jpg');
+    background-size: 300px 277px;
+}
+
+.place4 {
+    border-radius: 45%;
+    position: relative;
+    left: 845px;
+    top: -815px;
+    width: 270px;
+    height: 270px;
+    margin: 2px 2px 2px 2px;
+    background-image: url('https://cdn.britannica.com/65/162465-050-9CDA9BC9/Alps-Switzerland.jpg');
+    background-size: 300px 271px;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(30, 12, 6);
+}
+
+.place4:hover {
+    display: inline-block;
+    padding: 0.5rem .3rem;
+    background-color: var(--main-color);
+    border-radius: 60%;
+    box-shadow: 0 0 4.8rem var(--main-color);
+    font-size: 1rem;
+    color: rgb(18, 67, 12);
+    letter-spacing: .1rem;
+    font-weight: 600;
+    transition: .5s ease;
+    background-image: url('https://wallpapercave.com/wp/wp4679152.jpg');
+    background-size: 350px 277px;
+}
+
+.placebtn1 {
+    border-radius: 50%;
+    background-color: rgb(249, 164, 227);
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 5px;
+    border: 1px solid var(--main-color);
+}
+
+.placebtn2 {
+    border-radius: 50%;
+    background: none;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 5px;
+    border: 1px solid var(--main-color);
+    background-color: rgb(75, 228, 75);
+}
+
+.placebtn3 {
+    border-radius: 50%;
+    background: none;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 5px;
+    border: 1px solid var(--main-color);
+    background-color: rgb(233, 140, 48);
+}
+
+.placebtn4 {
+    border-radius: 50%;
+    background: none;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 5px;
+    border: 1px solid var(--main-color);
+    background-color: rgb(28, 136, 98);
+}
+
+.placebtn3:hover {
+    display: inline-block;
+    padding: 0.7rem 2.3rem;
+    background-color: var(--main-color);
+    border-radius: 60%;
+    box-shadow: 0 0 2.8rem var(--main-color);
+    font-size: 1rem;
+    color: var(--bg-color);
+    letter-spacing: .1rem;
+    font-weight: 600;
+    transition: .5s ease;
+    background-image: url('https://cdn1.vectorstock.com/i/1000x1000/70/50/yellow-sunset-desert-landscape-vector-8117050.jpg');
+    background-size: 100px 48px;
+}
+
+.placebtn4:hover {
+    display: inline-block;
+    padding: 0.7rem 2.3rem;
+    background-color: var(--main-color);
+    border-radius: 60%;
+    box-shadow: 0 0 2.8rem var(--main-color);
+    font-size: 1rem;
+    color: var(--bg-color);
+    letter-spacing: .1rem;
+    font-weight: 600;
+    transition: .5s ease;
+    color: rgb(50, 13, 32);
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpSBxDoDoB3cVWh4lqpXvq1J02_1-DbbyDlg&usqp=CAU');
+    background-size: 100px 40px;
+
+}
+
+.placebtn1:hover {
+    display: inline-block;
+    padding: 0.7rem 2.3rem;
+    background-color: var(--main-color);
+    border-radius: 60%;
+    box-shadow: 0 0 2.8rem var(--main-color);
+    font-size: 1rem;
+    color: var(--bg-color);
+    letter-spacing: .1rem;
+    font-weight: 600;
+    transition: .5s ease;
+    background-image: url('https://media.istockphoto.com/id/1366027192/photo/beautiful-caribbean-sea-and-blue-sky-travel-background.jpg?s=612x612&w=0&k=20&c=HLCx2KjDwOPul-j117AH1-9EtTKt_3RhVh-pynVm8PM=');
+    background-size: 100px 40px;
+}
+
+.placebtn2:hover {
+    display: inline-block;
+    padding: 0.7rem 2.3rem;
+    background-color: var(--main-color);
+    border-radius: 60%;
+    box-shadow: 0 0 2.8rem var(--main-color);
+    font-size: 1rem;
+    color: var(--bg-color);
+    letter-spacing: .1rem;
+    font-weight: 600;
+    transition: .5s ease;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8tsN90TLoBmPCMnQGH5KJhhlCGAsr5UhcTg&usqp=CAU');
+    background-size: 100px 40px;
+}
+
+.cont4 {
+    font-size: large;
+    color: rgb(247, 242, 242);
+    background-color: #323946;
+    margin-left: auto;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    background-image: url('https://images.hdqwalls.com/download/space-dark-abstract-ef-1920x1080.jpg');
+    background-size: 1200px 500px;
+}
+
+.pro1 {
+    color: rgb(68, 178, 251);
+    font-size: 35px;
+    text-align: center;
+    position: absolute;
+    left: 43%;
+    top: 170%;
+
+}
+
+.social-media a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    background: transparent;
+    border: .2rem solid var(--main-color);
+    border-radius: 50%;
+    font-size: 2rem;
+    color: var(--main-color);
+    margin: 3.5rem 2rem 3.5rem 0;
+    transition: .5s ease;
+    text-decoration: none;
+}
+
+.social-media {
+    position: relative;
+    left: 40%;
+    padding-top: 5%;
+}
+
+.social-media a:hover {
+    background: var(--main-color);
+    color: var(--second-bg-color);
+    box-shadow: 0 0 3rem var(--main-color);
+}
+
+footer {
+    padding: 23px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.emcn {
+    text-align: center;
+    padding-top: 10%;
+}
